@@ -32,6 +32,7 @@ class UsersSearch {
         `data-follows="${user.followed}" ` +
         `data-userid="${user.id}"></button>`
       )
+      console.log(user);
       $li.append($a);
       $li.append($followBtn);
       this.$ul.append($li);
